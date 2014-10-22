@@ -1,6 +1,7 @@
 body {
     font-size: 20px;
     font-family: Arial;
+    color: #F14C38;
 }
 
 h2 {
@@ -31,6 +32,8 @@ li {
 button {
     text-decoration: none;
     border:none;
+    background-color: #144955;
+    color: #F4F1E0;
 }
 button.calc {
     height: 64px;
@@ -46,9 +49,5 @@ button.reset {
     padding: 10px 30px;
     font-size: 1em;
 }
-/* theme 1 */
-.theme1 {
-    background-color: #000000;
-    font-color: #FFFFFF;
-}
+
 
