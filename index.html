@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="shopprox" manifest="app.manifest">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+    <script src="shopprox.js"></script>
+    <link rel="stylesheet" href="shopprox.css" type="text/css"></link>
+  </head>
+  <body ng-controller="ShopproxController" class="{{theme}}">
+    <h2>Shopprox</h2>
+    <div>
+      <div class="total">{{total | currency:"£"}}</div>
+      <ul>
+        <li ng-repeat="val in values">
+            <button ng-click="remove(val)" class="calc">-</button>
+            <span>{{val | currency:"£"}}</span>
+            <button ng-click="add(val)" class="calc">+</button>
+        </li>
+      </ul>
+      <button class="reset" ng-click="reset()">Reset</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.total {
+    text-align: center;
+    font-size: 2em;
+}
+
+div {
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    text-align:center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+}
+
+button {
+    text-decoration: none;
+    border:none;
+}
+button.calc {
+    height: 64px;
+    width: 64px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+button.reset {
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    font-size: 1em;
+}
+/* theme 1 */
+.theme1 {
+    background-color: #000000;
+    font-color: #FFFFFF;
+}
+
